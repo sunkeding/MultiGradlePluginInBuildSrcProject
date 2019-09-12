@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MultiGradlePluginInBuildSrcProject.iml" filepath="$PROJECT_DIR$/MultiGradlePluginInBuildSrcProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/buildsrc/buildsrc.iml" filepath="$PROJECT_DIR$/buildsrc/buildsrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/buildsrc/gradle-plugin-first/gradle-plugin-first.iml" filepath="$PROJECT_DIR$/buildsrc/gradle-plugin-first/gradle-plugin-first.iml" />
+      <module fileurl="file://$PROJECT_DIR$/buildsrc/gradle-plugin-second/gradle-plugin-second.iml" filepath="$PROJECT_DIR$/buildsrc/gradle-plugin-second/gradle-plugin-second.iml" />
+    </modules>
+  </component>
+</project>

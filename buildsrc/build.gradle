@@ -1,0 +1,24 @@
+apply plugin: 'groovy'
+
+
+dependencies {
+    implementation gradleApi()//gradle sdk
+    implementation localGroovy()//groovy sdk
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+sourceSets {
+    main {
+        groovy {
+            srcDir 'gradle-plugin-first/src'
+            srcDir 'gradle-plugin-second/src'
+        }
+//        resources {
+//            srcDir 'gradle-plugin-first/src/main/resources'
+//            srcDir 'gradle-plugin-second/src/main/resources'
+//        }
+    }
+}
